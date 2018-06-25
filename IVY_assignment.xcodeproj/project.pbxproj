@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7013EFEB279A5E913BD05B7F /* Pods_IVY_assignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 481A8F36536FBD120DDC1FF8 /* Pods_IVY_assignmentTests.framework */; };
-		88818161844329F3DA837773 /* Pods_IVY_assignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C45681118FB1372F7BC9DD4A /* Pods_IVY_assignmentUITests.framework */; };
+		A91E5CF020DB637700274881 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A91E5CF120DB637700274881 /* Alamofire.framework */; };
+		A91E5CF220DB637C00274881 /* MaterialComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A91E5CF320DB637C00274881 /* MaterialComponents.framework */; };
+		A94DCBA520DC11E400094682 /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94DCBA320DC11E400094682 /* BookCell.swift */; };
+		A94DCBA920DD5FE700094682 /* BookAdder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94DCBA720DD5FE700094682 /* BookAdder.swift */; };
+		A94DCBAA20DD5FE700094682 /* BookAdder.xib in Resources */ = {isa = PBXBuildFile; fileRef = A94DCBA820DD5FE700094682 /* BookAdder.xib */; };
+		A94DCC0420E1404E00094682 /* BookDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94DCC0220E1404E00094682 /* BookDetail.swift */; };
+		A94DCC0520E1404E00094682 /* BookDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = A94DCC0320E1404E00094682 /* BookDetail.xib */; };
 		A9A3747120DB30EB00EEFBD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A3747020DB30EB00EEFBD2 /* AppDelegate.swift */; };
 		A9A3747320DB30EB00EEFBD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A3747220DB30EB00EEFBD2 /* ViewController.swift */; };
 		A9A3747620DB30EB00EEFBD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A3747420DB30EB00EEFBD2 /* Main.storyboard */; };
@@ -41,8 +46,14 @@
 /* Begin PBXFileReference section */
 		3C1355AAE42C6B7A8CFE6A3C /* Pods-IVY_assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IVY_assignment.release.xcconfig"; path = "Pods/Target Support Files/Pods-IVY_assignment/Pods-IVY_assignment.release.xcconfig"; sourceTree = "<group>"; };
 		481A8F36536FBD120DDC1FF8 /* Pods_IVY_assignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IVY_assignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		73B8BFFCDD3EF7BBD002B062 /* Pods-IVY_assignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IVY_assignmentUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IVY_assignmentUITests/Pods-IVY_assignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
 		79E2DC674EED01B4ECE89381 /* Pods-IVY_assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IVY_assignment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IVY_assignment/Pods-IVY_assignment.debug.xcconfig"; sourceTree = "<group>"; };
+		A91E5CF120DB637700274881 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A91E5CF320DB637C00274881 /* MaterialComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MaterialComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94DCBA320DC11E400094682 /* BookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
+		A94DCBA720DD5FE700094682 /* BookAdder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookAdder.swift; sourceTree = "<group>"; };
+		A94DCBA820DD5FE700094682 /* BookAdder.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookAdder.xib; sourceTree = "<group>"; };
+		A94DCC0220E1404E00094682 /* BookDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetail.swift; sourceTree = "<group>"; };
+		A94DCC0320E1404E00094682 /* BookDetail.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookDetail.xib; sourceTree = "<group>"; };
 		A9A3746D20DB30EB00EEFBD2 /* IVY_assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IVY_assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A3747020DB30EB00EEFBD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9A3747220DB30EB00EEFBD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,10 +69,7 @@
 		A9A3749320DB30EC00EEFBD2 /* IVY_assignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IVY_assignmentUITests.swift; sourceTree = "<group>"; };
 		A9A3749520DB30EC00EEFBD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9A374A120DB351D00EEFBD2 /* URLConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLConstants.swift; sourceTree = "<group>"; };
-		AAE1FC85D7EFD051F78F66D7 /* Pods-IVY_assignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IVY_assignmentTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IVY_assignmentTests/Pods-IVY_assignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
-		BD6F09C58585A38E51E5EFDE /* Pods-IVY_assignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IVY_assignmentTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IVY_assignmentTests/Pods-IVY_assignmentTests.release.xcconfig"; sourceTree = "<group>"; };
 		C45681118FB1372F7BC9DD4A /* Pods_IVY_assignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IVY_assignmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D51434E33B405940C77B80F7 /* Pods-IVY_assignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IVY_assignmentUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IVY_assignmentUITests/Pods-IVY_assignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FDFA35E213984065988DCAF0 /* Pods_IVY_assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IVY_assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -70,6 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A91E5CF220DB637C00274881 /* MaterialComponents.framework in Frameworks */,
+				A91E5CF020DB637700274881 /* Alamofire.framework in Frameworks */,
 				F3BAAC633AC62EE5AB6EDCC4 /* Pods_IVY_assignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -78,7 +88,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7013EFEB279A5E913BD05B7F /* Pods_IVY_assignmentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +95,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88818161844329F3DA837773 /* Pods_IVY_assignmentUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +104,8 @@
 		000390081587A629D5F9929F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A91E5CF320DB637C00274881 /* MaterialComponents.framework */,
+				A91E5CF120DB637700274881 /* Alamofire.framework */,
 				FDFA35E213984065988DCAF0 /* Pods_IVY_assignment.framework */,
 				481A8F36536FBD120DDC1FF8 /* Pods_IVY_assignmentTests.framework */,
 				C45681118FB1372F7BC9DD4A /* Pods_IVY_assignmentUITests.framework */,
@@ -108,10 +118,6 @@
 			children = (
 				79E2DC674EED01B4ECE89381 /* Pods-IVY_assignment.debug.xcconfig */,
 				3C1355AAE42C6B7A8CFE6A3C /* Pods-IVY_assignment.release.xcconfig */,
-				AAE1FC85D7EFD051F78F66D7 /* Pods-IVY_assignmentTests.debug.xcconfig */,
-				BD6F09C58585A38E51E5EFDE /* Pods-IVY_assignmentTests.release.xcconfig */,
-				D51434E33B405940C77B80F7 /* Pods-IVY_assignmentUITests.debug.xcconfig */,
-				73B8BFFCDD3EF7BBD002B062 /* Pods-IVY_assignmentUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -141,6 +147,7 @@
 		A9A3746F20DB30EB00EEFBD2 /* IVY_assignment */ = {
 			isa = PBXGroup;
 			children = (
+				A9A374A120DB351D00EEFBD2 /* URLConstants.swift */,
 				A9A3747020DB30EB00EEFBD2 /* AppDelegate.swift */,
 				A9A3747220DB30EB00EEFBD2 /* ViewController.swift */,
 				A9A3747420DB30EB00EEFBD2 /* Main.storyboard */,
@@ -148,7 +155,11 @@
 				A9A3747C20DB30EB00EEFBD2 /* LaunchScreen.storyboard */,
 				A9A3747F20DB30EB00EEFBD2 /* Info.plist */,
 				A9A3747720DB30EB00EEFBD2 /* IVY_assignment.xcdatamodeld */,
-				A9A374A120DB351D00EEFBD2 /* URLConstants.swift */,
+				A94DCBA320DC11E400094682 /* BookCell.swift */,
+				A94DCBA720DD5FE700094682 /* BookAdder.swift */,
+				A94DCBA820DD5FE700094682 /* BookAdder.xib */,
+				A94DCC0220E1404E00094682 /* BookDetail.swift */,
+				A94DCC0320E1404E00094682 /* BookDetail.xib */,
 			);
 			path = IVY_assignment;
 			sourceTree = "<group>";
@@ -183,6 +194,7 @@
 				A9A3746A20DB30EB00EEFBD2 /* Frameworks */,
 				A9A3746B20DB30EB00EEFBD2 /* Resources */,
 				D64F69B686BFF8D83657FCAB /* [CP] Embed Pods Frameworks */,
+				143F22ECDCFCA83EB7422E1A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -197,7 +209,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9A3749B20DB30EC00EEFBD2 /* Build configuration list for PBXNativeTarget "IVY_assignmentTests" */;
 			buildPhases = (
-				1E8090474C36A0C69CA293E7 /* [CP] Check Pods Manifest.lock */,
 				A9A3748020DB30EB00EEFBD2 /* Sources */,
 				A9A3748120DB30EB00EEFBD2 /* Frameworks */,
 				A9A3748220DB30EB00EEFBD2 /* Resources */,
@@ -216,7 +227,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9A3749E20DB30EC00EEFBD2 /* Build configuration list for PBXNativeTarget "IVY_assignmentUITests" */;
 			buildPhases = (
-				C12526E1F59F5709BC3D4F93 /* [CP] Check Pods Manifest.lock */,
 				A9A3748B20DB30EB00EEFBD2 /* Sources */,
 				A9A3748C20DB30EB00EEFBD2 /* Frameworks */,
 				A9A3748D20DB30EB00EEFBD2 /* Resources */,
@@ -283,8 +293,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9A3747E20DB30EB00EEFBD2 /* LaunchScreen.storyboard in Resources */,
+				A94DCBAA20DD5FE700094682 /* BookAdder.xib in Resources */,
 				A9A3747B20DB30EB00EEFBD2 /* Assets.xcassets in Resources */,
 				A9A3747620DB30EB00EEFBD2 /* Main.storyboard in Resources */,
+				A94DCC0520E1404E00094682 /* BookDetail.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,22 +317,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1E8090474C36A0C69CA293E7 /* [CP] Check Pods Manifest.lock */ = {
+		143F22ECDCFCA83EB7422E1A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${SRCROOT}/Pods/Target Support Files/Pods-IVY_assignment/Pods-IVY_assignment-resources.sh",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-IVY_assignmentTests-checkManifestLockResult.txt",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IVY_assignment/Pods-IVY_assignment-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B30C377E2E540544FEC6C8DA /* [CP] Check Pods Manifest.lock */ = {
@@ -341,24 +355,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C12526E1F59F5709BC3D4F93 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-IVY_assignmentUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		D64F69B686BFF8D83657FCAB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -367,22 +363,42 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-IVY_assignment/Pods-IVY_assignment-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookShare/FacebookShare.framework",
 				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
 				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
 				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
 				"${BUILT_PRODUCTS_DIR}/MotionAnimator/MotionAnimator.framework",
 				"${BUILT_PRODUCTS_DIR}/MotionInterchange/MotionInterchange.framework",
 				"${BUILT_PRODUCTS_DIR}/MotionTransitioning/MotionTransitioning.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookShare.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionAnimator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionInterchange.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionTransitioning.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -399,7 +415,10 @@
 				A9A3747320DB30EB00EEFBD2 /* ViewController.swift in Sources */,
 				A9A374A220DB351D00EEFBD2 /* URLConstants.swift in Sources */,
 				A9A3747920DB30EB00EEFBD2 /* IVY_assignment.xcdatamodeld in Sources */,
+				A94DCBA920DD5FE700094682 /* BookAdder.swift in Sources */,
 				A9A3747120DB30EB00EEFBD2 /* AppDelegate.swift in Sources */,
+				A94DCC0420E1404E00094682 /* BookDetail.swift in Sources */,
+				A94DCBA520DC11E400094682 /* BookCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,6 +587,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25PH49W475;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Pods";
 				INFOPLIST_FILE = IVY_assignment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "SD.IVY-assignment";
@@ -584,6 +604,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25PH49W475;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Pods";
 				INFOPLIST_FILE = IVY_assignment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "SD.IVY-assignment";
@@ -595,7 +616,6 @@
 		};
 		A9A3749C20DB30EC00EEFBD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AAE1FC85D7EFD051F78F66D7 /* Pods-IVY_assignmentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -612,7 +632,6 @@
 		};
 		A9A3749D20DB30EC00EEFBD2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD6F09C58585A38E51E5EFDE /* Pods-IVY_assignmentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -629,7 +648,6 @@
 		};
 		A9A3749F20DB30EC00EEFBD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D51434E33B405940C77B80F7 /* Pods-IVY_assignmentUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -645,7 +663,6 @@
 		};
 		A9A374A020DB30EC00EEFBD2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73B8BFFCDD3EF7BBD002B062 /* Pods-IVY_assignmentUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
